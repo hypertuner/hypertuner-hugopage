@@ -2,6 +2,7 @@ baseurl = "https://hypertuner.ml/"
 languageCode = "en"
 title = "HyperTuner"
 theme = "vex-hugo"
+publishDir = "docs"
 
 [params]
   description = "Hyperparameter tuner for Machine Learning development"

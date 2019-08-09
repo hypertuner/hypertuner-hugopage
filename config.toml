@@ -1,0 +1,100 @@
+baseurl = "https://hypertuner.ml/"
+languageCode = "en"
+title = "HyperTuner"
+theme = "vex-hugo"
+
+[params]
+  description = "Hyperparameter tuner for Machine Learning development"
+
+  # Put your custom stylesheets and scripts
+  custom_stylesheets = []
+  custom_scripts = []
+
+  # Navigation bar informations
+  [params.navbar]
+    logo = "HyperTuner"
+    [[params.navbar.menu]]
+      link = "#"
+      text = "HOME"
+    [[params.navbar.menu]]
+      link = "#feature"
+      text = "Features"
+    [[params.navbar.menu]]
+      link = "https://github.com/hypertuner"
+      text = "Github"
+
+  # Header
+  [params.header]
+    title = "Hyper-parameter Tuning at the Speed of Light"
+    text = "HyperTuner is a suite of tools that "
+    [params.header.image]
+      path = "images/icon.png"
+      alt = "Logo"
+    [params.header.button]
+      link = "https://github.com/hypertuner"
+      text = "Checkout Our Github!"
+
+  # Features
+  [params.features]
+    title = "Our Core Features"
+    [params.features.image]
+      path = "images/icon.png"
+      alt = "Logo"
+    # Menu at the left of the image
+    [[params.features.left]]
+      icon = "tf-ion-ios-alarm-outline"
+      title = "Smooth Touch"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.left]]
+      icon = "tf-ion-ios-bell-outline"
+      title = "Elegant Design"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.left]]
+      icon = "tf-ion-ios-cart-outline"
+      title = "Easy Pricing"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    # Menu at the right of the image
+    [[params.features.right]]
+      icon = "tf-ion-ios-alarm-outline"
+      title = "Smooth Touch"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.right]]
+      icon = "tf-ion-ios-bell-outline"
+      title = "Elegant Design"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+    [[params.features.right]]
+      icon = "tf-ion-ios-cart-outline"
+      title = "Easy Pricing"
+      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+
+  # [params.promo]
+  #   title = "Designed by professional , the benefit for creative gigs"
+  #   text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum.  \nLorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vel labore, deleniti minima nisi, velit atque quaerat impedit ea maxime sunt accusamus at obcaecati dolor iure iusto omnis quis eum."
+  #   [params.promo.image]
+  #     path = "images/watch.png"
+  #     alt = "Watch"
+
+  # [params.feature_list]
+  #   title = "Why Choose Apple Watch"
+  #   [[params.feature_list.items]]
+  #     image = "images/showcase/showcase-4.png"
+  #     title = "Lorem ipsum dolor sit amet."
+  #     text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+  #     button_link = ""
+  #     button_text = "Check Features"
+  #   [[params.feature_list.items]]
+  #     image = "images/showcase/showcase-3.png"
+  #     title = "Lorem ipsum dolor sit amet."
+  #     text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
+  #     button_link = ""
+  #     button_text = "Check Features"
+
+  # [params.gallery]
+  #   title = "Checkout some amazing Shorts"
+  #   # Set the image directory to use as base
+  #   directory = "images/showcase"
+  #   # Set the images to show in the gallery
+  #   images = ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-5.png", "showcase-6.png", "showcase-7.png", "showcase-8.png"]
+
+
+  # Footer uses navbar data

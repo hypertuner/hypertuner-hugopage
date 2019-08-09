@@ -1,8 +1,8 @@
-baseurl = "https://hypertuner.ml/"
+baseurl = "http://hypertuner.ml/"
 languageCode = "en"
 title = "HyperTuner"
 theme = "vex-hugo"
-publishDir = "docs"
+publishDir = "../hypertuner.github.io"
 
 [params]
   description = "Hyperparameter tuner for Machine Learning development"

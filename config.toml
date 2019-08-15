@@ -86,13 +86,13 @@ publishDir = "../hypertuner.github.io"
     [[params.feature_list.items]]
       image = "images/showcase/graphs.png"
       title = "Real Time Performance Tracking"
-      text = "With hypertuner, you can train and validate your models whenever you push a new code commit, and track their performance in real time. Explore different parameter configurations and comparatively visualize them to zero in on the perfect config."
+      text = "With hypertuner, you can train and validate your models whenever you push a new code commit and track their performance in real time. Explore different parameter configurations and quickly compare them to hone-in on the perfect config."
       button_link = ""
       button_text = "Check Features"
     [[params.feature_list.items]]
       image = "images/showcase/terminal.png"
       title = "pull, run, tune, repeat"
-      text = "With our integrated tools you can upload your models and data to the could and optimize them using the power of the cloud. Set up the perfect environment in a sterile container environment build just for you. Share your exact setup with your co-workers so they can easily pick up where you left off."
+      text = "With our integrated tools, you can upload your models and data to the cloud for easy optimization. Set up the perfect environment in a sterile container build just for you. Share your exact setup with your co-workers so they can easily pick up where you left off."
       button_link = ""
       button_text = "Check Features"
 

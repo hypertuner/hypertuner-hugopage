@@ -78,19 +78,19 @@ publishDir = "../hypertuner.github.io"
   [params.feature_list]
     title = "Meet HyperTuner"
     [[params.feature_list.items]]
-      image = "images/showcase/configs.jpeg"
+      image = "images/showcase/configs.png"
       title = "parameter versioning, finally"
       text = "You version your code, why not version your parameters as well? Hyperparameter configurations effect the performance of a model as much as code changes do and without proper tracking you can be left chasing yourself in circles. With proper versioning of your configurations you can record past trial runs to confidently move forward in your development."
       button_link = ""
       button_text = "Check Features"
     [[params.feature_list.items]]
-      image = "images/showcase/graphs.jpeg"
+      image = "images/showcase/graphs.png"
       title = "Real Time Performance Tracking"
       text = "With hypertuner, you can train and validate your models whenever you push a new code commit, and track their performance in real time. Explore different parameter configurations and comparatively visualize them to zero in on the perfect config."
       button_link = ""
       button_text = "Check Features"
     [[params.feature_list.items]]
-      image = "images/showcase/terminal.jpeg"
+      image = "images/showcase/terminal.png"
       title = "pull, run, tune, repeat"
       text = "With our integrated tools you can upload your models and data to the could and optimize them using the power of the cloud. Set up the perfect environment in a sterile container environment build just for you. Share your exact setup with your co-workers so they can easily pick up where you left off."
       button_link = ""

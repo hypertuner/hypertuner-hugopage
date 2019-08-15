@@ -27,46 +27,46 @@ publishDir = "../hypertuner.github.io"
   # Header
   [params.header]
     title = "Hyper-parameter Tuning at the Speed of Light"
-    text = "HyperTuner is a suite of tools that "
+    text = "Designed for speed, collaboration, and insight, HyperTuner reimagines ML model tuning with an automated CI dashboard."
     [params.header.image]
       path = "images/icon.png"
       alt = "Logo"
     [params.header.button]
-      link = "https://github.com/hypertuner"
-      text = "Checkout Our Github!"
+      link = "http://165.22.165.234/"
+      text = "Live Demo"
 
-  # Features
-  [params.features]
-    title = "Our Core Features"
-    [params.features.image]
-      path = "images/icon.png"
-      alt = "Logo"
-    # Menu at the left of the image
-    [[params.features.left]]
-      icon = "tf-ion-ios-alarm-outline"
-      title = "Smooth Touch"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    [[params.features.left]]
-      icon = "tf-ion-ios-bell-outline"
-      title = "Elegant Design"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    [[params.features.left]]
-      icon = "tf-ion-ios-cart-outline"
-      title = "Easy Pricing"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    # Menu at the right of the image
-    [[params.features.right]]
-      icon = "tf-ion-ios-alarm-outline"
-      title = "Smooth Touch"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    [[params.features.right]]
-      icon = "tf-ion-ios-bell-outline"
-      title = "Elegant Design"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
-    [[params.features.right]]
-      icon = "tf-ion-ios-cart-outline"
-      title = "Easy Pricing"
-      text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  # # Features
+  # [params.features]
+  #   title = "Our Core Features"
+  #   [params.features.image]
+  #     path = "images/watch-2.png"
+  #     alt = "Watch"
+  #   # Menu at the left of the image
+  #   [[params.features.left]]
+  #     icon = "tf-ion-ios-alarm-outline"
+  #     title = "Smooth Touch"
+  #     text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  #   [[params.features.left]]
+  #     icon = "tf-ion-ios-bell-outline"
+  #     title = "Elegant Design"
+  #     text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  #   [[params.features.left]]
+  #     icon = "tf-ion-ios-cart-outline"
+  #     title = "Easy Pricing"
+  #     text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  #   # Menu at the right of the image
+  #   [[params.features.right]]
+  #     icon = "tf-ion-ios-alarm-outline"
+  #     title = "Smooth Touch"
+  #     text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  #   [[params.features.right]]
+  #     icon = "tf-ion-ios-bell-outline"
+  #     title = "Elegant Design"
+  #     text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
+  #   [[params.features.right]]
+  #     icon = "tf-ion-ios-cart-outline"
+  #     title = "Easy Pricing"
+  #     text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, inventore?"
 
   # [params.promo]
   #   title = "Designed by professional , the benefit for creative gigs"
@@ -75,20 +75,26 @@ publishDir = "../hypertuner.github.io"
   #     path = "images/watch.png"
   #     alt = "Watch"
 
-  # [params.feature_list]
-  #   title = "Why Choose Apple Watch"
-  #   [[params.feature_list.items]]
-  #     image = "images/showcase/showcase-4.png"
-  #     title = "Lorem ipsum dolor sit amet."
-  #     text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
-  #     button_link = ""
-  #     button_text = "Check Features"
-  #   [[params.feature_list.items]]
-  #     image = "images/showcase/showcase-3.png"
-  #     title = "Lorem ipsum dolor sit amet."
-  #     text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit quas, quo harum deserunt consequatur cumque!"
-  #     button_link = ""
-  #     button_text = "Check Features"
+  [params.feature_list]
+    title = "Meet HyperTuner"
+    [[params.feature_list.items]]
+      image = "images/showcase/configs.jpeg"
+      title = "parameter versioning, finally"
+      text = "You version your code, why not version your parameters as well? Hyperparameter configurations effect the performance of a model as much as code changes do and without proper tracking you can be left chasing yourself in circles. With proper versioning of your configurations you can record past trial runs to confidently move forward in your development."
+      button_link = ""
+      button_text = "Check Features"
+    [[params.feature_list.items]]
+      image = "images/showcase/graphs.jpeg"
+      title = "Real Time Performance Tracking"
+      text = "With hypertuner, you can train and validate your models whenever you push a new code commit, and track their performance in real time. Explore different parameter configurations and comparatively visualize them to zero in on the perfect config."
+      button_link = ""
+      button_text = "Check Features"
+    [[params.feature_list.items]]
+      image = "images/showcase/terminal.jpeg"
+      title = "pull, run, tune, repeat"
+      text = "With our integrated tools you can upload your models and data to the could and optimize them using the power of the cloud. Set up the perfect environment in a sterile container environment build just for you. Share your exact setup with your co-workers so they can easily pick up where you left off."
+      button_link = ""
+      button_text = "Check Features"
 
   # [params.gallery]
   #   title = "Checkout some amazing Shorts"
@@ -97,5 +103,31 @@ publishDir = "../hypertuner.github.io"
   #   # Set the images to show in the gallery
   #   images = ["showcase-1.png", "showcase-2.png", "showcase-3.png", "showcase-4.png", "showcase-5.png", "showcase-6.png", "showcase-7.png", "showcase-8.png"]
 
+  # [params.call_to_action]
+  #   title = "Get Product Updates"
+  #   text = "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod"
+  #   placeholder = "Your Email Address Here"
+  #   button_text = "Subscribe"
+
+  # [params.testimonials]
+  #   title = "Watch Review"
+  #   [[params.testimonials.blocks]]
+  #     text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+  #     name = "Jonathon Andrew"
+  #     position = "CEO, Themefisher"
+  #     image = "images/avater.png"
+  #   [[params.testimonials.blocks]]
+  #     text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+  #     name = "Jonathon Andrew"
+  #     position = "CEO, Themefisher"
+  #     image = "images/avater.png"
+  #   [[params.testimonials.blocks]]
+  #     text = "A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents."
+  #     name = "Jonathon Andrew"
+  #     position = "CEO, Themefisher"
+  #     image = "images/avater.png"
+  #   [params.testimonials.button]
+  #     link = ""
+  #     text = "Grab You Product Now"
 
   # Footer uses navbar data

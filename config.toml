@@ -8,7 +8,7 @@ publishDir = "../hypertuner.github.io"
   description = "Hyperparameter tuner for Machine Learning development"
 
   # Put your custom stylesheets and scripts
-  custom_stylesheets = []
+  custom_stylesheets = ['./mobile.css']
   custom_scripts = []
 
   # Navigation bar informations
